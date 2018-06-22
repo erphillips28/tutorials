@@ -1,0 +1,12 @@
+1. Locate the source file (.c) that you want to compile
+  cd <folder where main.c lives>
+
+2a. Compile the program (with default name "a.out")
+  gcc main.c
+2b. Compile the program (with a custom name)
+  gcc main.c -o <name>
+
+3. Run the program
+  ./<name>
+  // example 1: ./a.out
+  // example 2: ./<name>
